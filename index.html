@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.min.css"/>
+    <title>Foobar webdesign</title>
+</head>
+<body>
+<div class="app">
+    <div data-role="page" id="home">
+
+        <div data-role="header">
+            <h1>FooBar Webdesign</h1>
+        </div>
+        <!-- /header -->
+
+        <div role="main" class="ui-content">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <p>Home page content goes here.</p>
+            <a href="#contact" class="ui-shadow ui-btn ui-corner-all">Contact us Today!</a>
+        </div>
+        <!-- /content -->
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+        <!-- /footer -->
+    </div>
+    <div data-role="page" id="about">
+
+        <div data-role="header">
+            <h1>About FooBar</h1>
+        </div>
+        <!-- /header -->
+
+        <div role="main" class="ui-content">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about" class="ui-btn-active">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <p>About Page content goes here.</p>
+        </div>
+        <!-- /content -->
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+        <!-- /footer -->
+    </div>
+    <div data-role="page" id="contact">
+
+        <div data-role="header">
+            <h1>Contacts FooBar</h1>
+        </div>
+        <!-- /header -->
+
+        <div role="main" class="ui-content">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+                </ul>
+            </nav>
+            <p>Contact Page content goes here.</p>
+        </div>
+        <!-- /content -->
+
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+        <!-- /footer -->
+    </div>
+    <!-- /page -->
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
